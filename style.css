@@ -75,6 +75,12 @@ header {
   transform: translateX(2rem);
 }
 
+   .signup_btn:active {
+      transform: scale(0.95);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+    
+
 .signup_nav {
   width: 100%;
   border-radius: 2rem;
@@ -167,6 +173,16 @@ main {
   font-size: 1.8rem;
   color: #ffffff;
   margin-top: 1rem;
+}
+
+
+.img_cons_flex{
+  display: flex;
+}
+
+.creators_flex{
+  display: flex;
+  gap: 2rem;
 }
 
 .first_img_section {
@@ -622,7 +638,7 @@ p {
   color: #ffffff;
 }
 .subscribe_btn_11 button {
-  width: ;
+
   background-color: transparent;
   border: none;
   font-size: 1rem;
@@ -728,3 +744,20 @@ footer {
     display: none;
   }
 }
+
+.active{
+  border-bottom: 0.1rem solid white;
+}
+
+.nav_links a:hover{
+      transform: scale(1.07);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    
+}
+
+.hero_btns:active {
+      transform: scale(0.95);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+

@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1rem solid red; */
+}
+
+html {
+  font-size: calc(100vw / (1280 / 10));
+}
+
+body {
+  background: #2b2b2b;
+  font-family: Work Sans;
+}
+.burger{
+    display: none;
+}
+header {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo_con {
+  display: flex;
+  align-items: center;
+  transform: translateX(-4rem);
+  gap: 1rem;
+}
+
+.nav_links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.logo_1 {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.NFT_user {
+  font-family: Space Mono;
+  color: white;
+  font-size: 2rem;
+}
+
+.signup_btn {
+  background-color: #a259ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.5rem;
+  width: 13.2rem;
+  height: 4rem;
+}
+
+.signup_btn img {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(2rem);
+}
+
+   .signup_btn:active {
+      transform: scale(0.95);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+    
+
+.signup_nav {
+  width: 100%;
+  border-radius: 2rem;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-family: Work Sans;
+  font-size: 1.6rem;
+}
+
+.nav_links a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Work Sans;
+  font-size: 1.8rem;
+}
+
+
+.big_back_photo img{
+    width: 100%;
+    height: 35rem;
+}
+
+.high_section_1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 12rem;
+    margin-right: 7rem;
+}
+
+.anima_kid{
+    font-family: Work Sans;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 3rem;
+line-height: 110.00000000000001%;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: capitalize;
+color: #ffffff;
+margin-top: 1rem;
+}
+
+.back_code{
+    background-color: #A259FF;
+    color: #ffffff;
+    width: 12rem;
+    height: 4rem;
+    border-radius: 1rem;
+}
+
+.follow{
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    outline: none;
+}
+.plus_follow{
+    background-color: transparent;
+    width: 10rem;
+    height: 4rem;
+    border: 0.3rem solid #A259FF;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.plus_follow i{
+    color: #A259FF;
+}
+
+.buttons_of_two{
+    display: flex;
+    gap: 1rem;
+}
+
+.infos{
+    display: flex;
+    gap: 7rem;
+    margin-left: 12rem;
+    margin-top: 2rem;
+    color: #ffffff;
+}
+
+.infos h1{
+    font-weight: 600;
+}
+
+.infos h2{
+    font-weight: 400;
+}
+
+.bio{
+    display: flex;
+    flex-direction: column;
+    margin-left: 12rem;
+    margin-top: 3rem;
+}
+.bio h1{
+    font-family: Space Mono;
+    color: #858584;
+}
+
+.bio p{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-family: Work Sans;
+    margin-top: 1rem;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    margin-left: 12rem;
+    margin-top: 3rem;
+}
+
+.links h1{
+    color: #858584;
+    font-family: Space Mono;
+    font-weight: 700;
+}
+
+.social_medias_to_use i{
+    font-size: 2rem;
+    width: 4rem;
+    color: #858584;
+    transform: translateX(-1rem);
+    margin-top: 1rem;
+}
+
+.collected_and_so{
+    display: flex;
+
+    justify-content: center;
+    color: #858584;
+    gap: 37rem;
+    margin-top: 3rem;
+}
+
+.created{
+    color: #FFFFFF;
+    border-bottom: 0.1rem solid #858584;
+    width: 15rem;
+    display: flex;
+    margin-left: 1rem;
+
+}
+.counts_of_notification{
+    background-color: #858584;
+    width: 6rem;
+    
+    height: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counts_of_notification h1{
+    font-size: 1rem;
+}
+
+.distant_galaxy{
+    background-color: #3B3B3B;
+    width: 30rem;
+    height: 45rem;
+    border-radius: 1rem;
+    margin-left: 12rem;
+    margin-top: 2rem;
+}
+
+.distant_photo{
+    width: 30rem;
+    height: 29rem;
+    border-radius: 1rem;
+}
+
+.little_photo_1{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin-left: 1.5rem;
+}
+.profile_little_1{
+    display: flex;
+    align-items: center;
+}
+
+.distant_title{
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #FFFFFF;
+}
+
+.little_title{
+    font-family: Space Mono;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-left: 0.8rem;
+}
+
+.texts_1{
+    display: flex;
+    justify-content: space-between;
+    color: #858584;
+    font-family: Space Mono;
+    font-size: 0.8rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+}
+
+.texts_2{
+    display: flex;
+    justify-content: space-between;
+    font-family: Space Mono;
+    font-size: 0.8rem;
+    color: #FFFFFF;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
