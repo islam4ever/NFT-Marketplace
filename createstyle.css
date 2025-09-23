@@ -280,3 +280,76 @@ footer {
   height: 3rem;
   color: #ffffff;
 }
+
+
+@media only screen and (max-width: 500px){
+  .burger{
+    display: block !important;
+    margin-right: 7rem;
+  }
+  .nav_links, .signup_btn{
+    display: none;
+  }
+  .logo_1{
+    width: 10rem;
+    height: 10rem;
+    margin-left: 7rem;
+  }
+  .NFT_user{
+    font-size: 4rem;
+  }
+
+  header{
+    padding: 0;
+    margin: 0;
+  }
+
+
+  .main_con{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .ssssssssss{
+    text-align: center;
+    margin-top: 6rem;
+    font-size: 6rem;
+  }
+  .p_in_create p{
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .main_left img{
+    width: 100vw;
+    height: 90rem;
+    margin-top: 0;
+  }
+  form{
+    margin-top: 6rem;
+  }
+  form div{
+    margin-left: 48rem;
+    width: 35rem;
+    height: 8rem;
+    border-radius: 4rem;
+  }
+  form input::placeholder{
+    font-size: 2.5rem;
+
+
+  }
+  .create_account{
+    width: 35rem;
+    height: 8rem;
+    border-radius: 4rem;
+    margin-left: 48rem;
+  }
+  footer{
+    margin-top: 10rem;
+  }
+  .burger img{
+    width: 10rem;
+    height: 10rem;
+  }
+}

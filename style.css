@@ -946,7 +946,11 @@ footer {
   .first_three, .second_three, .third_three h3, p{
     font-size: 5rem;
   }
-  
+  .inside_the_first_div_diver{
+    width: 31.5rem;
+    height: 31.5rem;
+    border-radius: 3rem;
+  }
   .right_hero img{
     width: 100rem;
     height: 100rem;
@@ -979,16 +983,15 @@ footer {
     border-radius: 3rem;
   }
 }
-.inside_the_first_div_diver{
-  width: 31.5rem;
-  height: 31.5rem;
-  border-radius: 3rem;
-}
+
+
 .first_img_section11{
   margin-left: -15rem;
 }
 
-
+.img_cons:first-child{
+  display: none;
+}
 
 .active{
   border-bottom: 0.1rem solid white;
