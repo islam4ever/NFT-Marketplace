@@ -856,7 +856,7 @@ footer {
   }
 
   .first_how_it_work{
-    margin-left: 15rem;
+    margin-left: 15rem; 
   }
 }
 
@@ -924,7 +924,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100rem;
+    width: 120rem;
     height: 15rem;
     border-radius: 5rem;
     margin-top: 7rem;
@@ -939,7 +939,7 @@ footer {
     margin-left: 20rem;
   }
  .three_cons{
-  gap: 4rem;
+  gap: 10rem;
   margin-left: 0;
   margin-top: 5rem;
  }
@@ -954,15 +954,16 @@ footer {
   .right_hero img{
     width: 100rem;
     height: 100rem;
-    margin-left: -30rem;
+    margin-left: -17rem;
   }
   .text_first_section h1{
-    font-size: 7rem;
-    margin-left: 0;
+    font-size: 10rem;
+    margin-left: 8rem;
   }
   .text_first_section p{
     font-size: 4rem;
     margin-left: 0;
+    margin-left: 8rem;
   }
   .img_cons:nth-child(2){
     display: none;
@@ -982,7 +983,104 @@ footer {
   height: 31.5rem;
     border-radius: 3rem;
   }
-}
+  .creators_flex{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .creators_con_1:nth-child(2){
+    margin-left: 15rem;
+  }
+  .creators_con_1{
+    width: 105rem;
+    border-radius: 4rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .image_of1{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-left: -45rem;
+  }
+  .image_of1 img{
+    margin-top: 0 rem;
+    
+  }
+  .text_of1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  .text_of1 h3{
+    color: #ffffff;
+    font-size: 4rem;
+    margin-top: -20rem;
+    margin-left: 14rem;
+  }
+  .text_of1 p{
+    font-size: 3rem;
+    margin-left: 14rem;
+    margin-top: 2rem;
+  }
+  .creators_img{
+    margin-left: -64rem;
+    margin-top: 4rem;
+  }
+  .creators_con_1{
+    margin-left: 14rem;
+    margin-top: 2rem;
+  }
+
+  .creators_con_1 h1{
+    color: #ffffff;
+    font-size: 4rem;
+    /* margin-top: -20rem; */
+    margin-left: 14rem;
+    margin-top: -20rem;
+    margin: 0;
+  }
+  .creators_con1_trade h2{
+    font-size: 3rem;
+    /* margin-top: -12rem */
+
+  }
+  .creators_con1_trade h2:first-child{
+    margin-left: 16rem;
+    color: #ffffff;
+  }
+
+  .high_texts h1{
+    font-size: 8rem;
+    
+    margin: 0;
+    margin-left: 8rem;
+    margin-top: 4rem;
+  }
+  .high_texts_con p{
+    font-size: 3.5rem;
+    margin: 0;
+    margin-left: 8rem;
+    margin-top: 2rem;
+  }
+
+  .high_texts_i_con{
+    width: 105rem;
+    height: 15rem;
+    border-radius: 4rem;
+    margin-left: 15rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .browse_categories{
+    
+  }
+  }
+
 
 
 .first_img_section11{
